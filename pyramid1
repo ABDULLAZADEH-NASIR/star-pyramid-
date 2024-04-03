@@ -1,0 +1,32 @@
+    *
+   ***
+  *****
+ *******
+*********
+
+
+public class Main {
+    public static void main(String[] args) {
+
+     int setirsayi=5;
+
+
+
+       for(int setir=0; setir<setirsayi;setir++){
+
+
+         for(int boslug=0;boslug<setirsayi-(setir+1);boslug++) {
+
+             System.out.print(" ");
+         }
+
+
+          for(int ulduz=0;ulduz<1+(setir*2);ulduz++){
+              System.out.print("*");
+
+
+         }
+         System.out.println();
+       }
+    }
+}

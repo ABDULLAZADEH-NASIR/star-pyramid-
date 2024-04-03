@@ -1,0 +1,28 @@
+       *
+      ***
+     *****
+    *******
+   *********
+  ***********
+ *************
+***************
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        int setirsayi=8;
+        for(int setir=0;setir<setirsayi;setir++){
+
+         for(int bosluq=0;bosluq<setirsayi-(setir+1);bosluq++){
+           System.out.print(" ");
+        }
+         for(int ulduz=0;ulduz<1+(setir*2);ulduz++){
+           System.out.print("*");
+        }
+        System.out.println();
+       }
+
+    }
+}
+
